@@ -26,8 +26,8 @@ cd app/code/Dford/Geoip
 git clone https://github.com/djfordz/geoip.git .
 
 # all modes
-bin/magneto module:enable Dford_Geoip
-bin/magneto setup:upgrade
+bin/magento module:enable Dford_Geoip
+bin/magento setup:upgrade
 
 # if in production mode
 bin/magento setup:di:compile
